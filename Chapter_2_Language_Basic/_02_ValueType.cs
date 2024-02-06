@@ -1,7 +1,8 @@
-using System.Drawing;
 
 namespace Chapter_2_Language_Basic
 {
+    public struct Point { public int X; public int Y; }
+
     public class TestClass
     {
 
@@ -17,7 +18,9 @@ namespace Chapter_2_Language_Basic
             p1.X = 9;
 
             // Assert
-            Assert.NotEqual(p1.X, p2.X);
+            Assert.True(p1.X!=p2.X);
+            Assert.Equal(9, p1.X);
+            Assert.Equal(7, p2.X);
         }
     }
 }
