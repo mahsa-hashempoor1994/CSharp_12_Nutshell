@@ -2,6 +2,7 @@ namespace Chapter_2_Language_Basic
 {
     public class FeetConverterTests
     {
+
         [Theory]
         [InlineData(0, 0)] // Test case for 0 feet
         [InlineData(1, 12)] // Test case for 1 foot
