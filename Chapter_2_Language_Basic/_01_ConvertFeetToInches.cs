@@ -9,7 +9,7 @@ namespace Chapter_2_Language_Basic
         [InlineData(5, 60)] // Test case for 5 feet
         [InlineData(100, 1200)] // Test case for 10 feet
         [InlineData(30, 360)] // Test case for 30 feet
-        public void ConvertFeetToInches_ValidInput_ReturnsCorrectResult(int feet, int expectedInches)
+        public void ConvertFeetToInches(int feet, int expectedInches)
         {
             // Arrange: Create a method to convert feet to inches
             int FeetToInches(int feet)
