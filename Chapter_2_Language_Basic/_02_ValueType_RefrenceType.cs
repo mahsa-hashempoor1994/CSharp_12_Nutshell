@@ -14,9 +14,10 @@ namespace Chapter_2_Language_Basic
 
             // Act
             Point p2 = p1;
+            p1.X = 9;
 
             // Assert
-            Assert.Equal(p1.X, p2.X);
+            Assert.NotEqual(p1.X, p2.X);
         }
     }
 }
