@@ -3,7 +3,7 @@
 namespace Chapter_2_Language_Basic
 {
 
-    public class IncrementDecrementOperatorClass
+    public class IncrementDecrementOperatorTestClass
     {
 
         [Fact]
