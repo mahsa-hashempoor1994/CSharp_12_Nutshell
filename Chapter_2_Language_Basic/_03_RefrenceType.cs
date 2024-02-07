@@ -10,8 +10,9 @@ namespace Chapter_2_Language_Basic
         [InlineData(7)]
         public void RefrenceTypesTests(int x)
         {
+            var b = 0b1010_1011_1100_1101_1110_1111;
             // Arrange
-            PointClass p1 = new PointClass { X = x };
+            PointClass p1 = new() { X = x };
 
             // Act
             PointClass p2 = p1;
@@ -21,6 +22,7 @@ namespace Chapter_2_Language_Basic
             Assert.True(p1.X== p2.X);
             Assert.Equal(9, p1.X);
             Assert.Equal(9, p2.X);
+
         }
     }
 }
