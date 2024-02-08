@@ -18,7 +18,7 @@ namespace Chapter_2_Language_Basic
             p1.X = 9;
 
             // Assert
-            Assert.True(p1.X!=p2.X);
+            Assert.False(p1.X==p2.X);
             Assert.Equal(9, p1.X);
             Assert.Equal(7, p2.X);
         }

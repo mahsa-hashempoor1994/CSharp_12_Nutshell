@@ -10,7 +10,7 @@ namespace Chapter_2_Language_Basic
         [InlineData(7)]
         public void RefrenceTypesTests(int x)
         {
-            var b = 0b1010_1011_1100_1101_1110_1111;
+
             // Arrange
             PointClass p1 = new() { X = x };
 
