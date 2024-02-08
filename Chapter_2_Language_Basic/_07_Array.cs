@@ -10,16 +10,14 @@ namespace Chapter_2_Language_Basic
         public void ArrayTest1()
         {
             // Arrange
-            char[] vowels = ['a', 'e', 'i', 'o', 'u'];
-
-
+            char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+            
             // Act
             char result = vowels[0];
 
             // Assert
             Assert.Equal('a', result);
-
-
+            
         }
 
         /// <summary>
@@ -29,7 +27,7 @@ namespace Chapter_2_Language_Basic
         public void ArrayIndices()
         {
             // Arrange
-            char[] vowels = ['a', 'e', 'i', 'o', 'u'];
+            char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 
 
             // Act
@@ -50,11 +48,11 @@ namespace Chapter_2_Language_Basic
         public void ArrayRanges()
         {
             // Arrange
-            char[] vowels = ['a', 'e', 'i', 'o', 'u'];
+            char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+
             Index first = 0;
             Index last = ^1;
-
-
+            
             // Act
             char firstElement = vowels[first]; // 'a'
             char lastElement = vowels[last];  //  'u'
@@ -81,14 +79,12 @@ namespace Chapter_2_Language_Basic
             // Arrange
             int[,] matrix = new int[3, 3];
 
-
             // Act
             //The GetLength method of an array returns the length for a given dimension (starting at 0):
             for (int i = 0; i < matrix.GetLength(0); i++)
                 for (int j = 0; j < matrix.GetLength(1); j++)
                     matrix[i, j] = i * 3 + j;
-
-
+            
             // Assert
             Assert.Equal(0, matrix[0, 0]);
             Assert.Equal(1, matrix[0, 1]);
@@ -99,9 +95,6 @@ namespace Chapter_2_Language_Basic
             Assert.Equal(6, matrix[2, 0]);
             Assert.Equal(7, matrix[2, 1]);
             Assert.Equal(8, matrix[2, 2]);
-
-
-
         }
     }
 }
