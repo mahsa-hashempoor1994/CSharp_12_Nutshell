@@ -1,7 +1,4 @@
 
-
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
 namespace Chapter_2_Language_Basic
 {
 
@@ -33,9 +30,9 @@ namespace Chapter_2_Language_Basic
         {
             // Arrange
             StringBuilder sb = new StringBuilder();
-            static void Foo(StringBuilder fooSB)
+            static void Foo(StringBuilder? fooSB)
             {
-                fooSB.Append("test");
+                fooSB?.Append("test");
                 fooSB = null;
             }
 
