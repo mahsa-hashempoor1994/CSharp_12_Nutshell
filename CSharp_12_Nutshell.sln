@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_2_Language_Basic", "Chapter_2_Language_Basic\Chapter_2_Language_Basic.csproj", "{94ED3298-BC76-4404-8236-F9C08850C53C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_2_Language_Basic", "Chapter_2_Language_Basic\Chapter_2_Language_Basic.csproj", "{94ED3298-BC76-4404-8236-F9C08850C53C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_3_Creating_Types", "Chapter_3_Creating_Types\Chapter_3_Creating_Types.csproj", "{AC41C32C-262D-4146-AE1C-BAFF29E95606}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{94ED3298-BC76-4404-8236-F9C08850C53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94ED3298-BC76-4404-8236-F9C08850C53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94ED3298-BC76-4404-8236-F9C08850C53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC41C32C-262D-4146-AE1C-BAFF29E95606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC41C32C-262D-4146-AE1C-BAFF29E95606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC41C32C-262D-4146-AE1C-BAFF29E95606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC41C32C-262D-4146-AE1C-BAFF29E95606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
