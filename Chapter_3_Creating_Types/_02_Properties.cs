@@ -7,6 +7,7 @@ namespace Chapter_3_Creating_Types
     }
     public class PropertiesTestClass
     {
+
         [Fact]
         public void Test1()
         {

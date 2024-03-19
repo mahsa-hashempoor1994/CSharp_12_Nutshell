@@ -26,7 +26,6 @@ namespace Chapter_3_Creating_Types
             //Arrange
             Person p = new(firstname, lastname);
             
-
             //Act
            
             var result=p.Fulltime;

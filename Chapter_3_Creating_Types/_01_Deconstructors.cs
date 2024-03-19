@@ -21,6 +21,7 @@ namespace Chapter_3_Creating_Types
             height = this.Height;
         }
     }
+
     public class DeconstructorsTestClass
     {
         [Fact]

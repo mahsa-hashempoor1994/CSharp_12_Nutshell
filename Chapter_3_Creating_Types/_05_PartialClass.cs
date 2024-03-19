@@ -45,7 +45,6 @@ namespace Chapter_3_Creating_Types
             var method2=myclass.Mehod2();
 
             //Assert
-
             Assert.Equal(expectedOutput1, method1);
             Assert.Equal(expectedOutput2, method2);
 
